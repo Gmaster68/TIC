@@ -1,0 +1,118 @@
+h1{
+    color: red;
+}
+
+#EcranNumere{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid blue;
+    padding-right: 20px;
+}
+
+
+.numere{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+.zer0{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 5rem;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+#firstPart{
+    width: 15rem;
+}
+
+.numereSpeciale{
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+#equals{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 10rem;
+    font-size: 20px;
+    text-align: center;
+    background-color: orangered;
+    border: 1px solid white;
+}
+.Calculator{
+
+    width: 15rem;
+    height: 15rem;
+ display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: darkblue;
+}
+.Aiaye{
+    width: 15rem;
+    height: 5rem;
+ display: grid;
+ grid-template-columns: 10rem 5rem;
+ background-color: darkblue;
+}
+.tasteSpeciale{
+
+    width: 15rem;
+    height: 5rem;
+ display: grid;
+ grid-template-columns: auto auto auto;
+ background-color: lightblue;
+}
+#EcranNumere{
+    width: 20rem;
+    height: 6rem;
+    background-color: darkblue;
+}
+
+#secondPart{
+    width: 5rem;
+    height: 15rem;
+ display: grid;
+ grid-template-columns: auto;
+ background-color: lightblue;
+}
+.BigTastaura{
+display: grid;
+grid-template-columns: 15rem 5rem;
+gap: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
